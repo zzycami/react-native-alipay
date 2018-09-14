@@ -1,0 +1,45 @@
+{
+  "_from": "react-native-alipay",
+  "_id": "react-native-alipay@0.1.5",
+  "_inBundle": false,
+  "_integrity": "sha1-92M5O+QEtF9kqYfhNGWABoxBJcw=",
+  "_location": "/react-native-alipay",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-alipay",
+    "name": "react-native-alipay",
+    "escapedName": "react-native-alipay",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-alipay/-/react-native-alipay-0.1.5.tgz",
+  "_shasum": "f763393be404b45f64a987e1346580068c4125cc",
+  "_spec": "react-native-alipay",
+  "_where": "/Users/zhouzeyong/Mr.Wind/WindWork-RN/ios",
+  "author": {
+    "name": "tdzl2003"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "支付宝功能接入",
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "alipay"
+  ],
+  "license": "ISC",
+  "main": "src/index.js",
+  "name": "react-native-alipay",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.5"
+}
