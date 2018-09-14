@@ -7,32 +7,31 @@
 #
 
 Pod::Spec.new do |s|
-  s.name         = "react-native-alipay"
-  s.version      = "0.1.0"
-  s.summary      = "React-Native(iOS/Android) functionalities include WeChat Login, Share, Favorite and Payment {QQ: 576452467}"
+s.name         = "react-native-alipay"
+s.version      = "0.1.0"
+s.summary      = "React-Native(iOS/Android) functionalities include WeChat Login, Share, Favorite and Payment {QQ: 576452467}"
 
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                  React-Native(iOS/Android) functionalities include Aliyun Payment {QQ: 576452467}
-                   DESC
+# This description is used to generate tags and improve search results.
+#   * Think: What does it do? Why did you write it? What is the focus?
+#   * Try to keep it short, snappy and to the point.
+#   * Write the description between the DESC delimiters below.
+#   * Finally, don't worry about the indent, CocoaPods strips it!
+s.description  = <<-DESC
+React-Native(iOS/Android) functionalities include Aliyun Payment {QQ: 576452467}
+DESC
 
-  s.homepage     = "https://github.com/zzycami/react-native-alipay"
-  s.license      = "MIT"
-  s.author             = { "zzycami" => "zzycami@foxmail.com" }
-  s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/zzycami/react-native-alipay.git", :tag => "master" }
-  s.source_files  = "ios/**/*.{h,m}"
-  s.requires_arc = true
+s.homepage     = "https://github.com/zzycami/react-native-alipay"
+s.license      = "MIT"
+s.author             = { "zzycami" => "zzycami@foxmail.com" }
+s.platform     = :ios, "8.0"
+s.source       = { :git => "https://github.com/zzycami/react-native-alipay.git", :tag => "master" }
+s.source_files  = "ios/**/*.{h,m}"
+s.requires_arc = true
 
-  s.dependency "React"
-  s.vendored_libraries = "ios/SDK/AlipaySDK.framework"
-  s.resources    = 'ios/SDK/AlipaySDK.bundle'
-  s.public_header_files = 'ios/SDK/AlipaySDK.framework/Headers/**/*.h'
-  s.ios.frameworks = 'SystemConfiguration','CoreTelephony','CoreMotion'
-  s.ios.library = 'sqlite3','c++','z'
+s.dependency "React"
+s.vendored_frameworks = 'ios/SDK/AlipaySDK.framework'
+s.resources    = 'ios/SDK/AlipaySDK.bundle'
+s.ios.frameworks = 'SystemConfiguration','CoreTelephony','CoreMotion'
+s.ios.library = 'sqlite3','c++','z'
 
 end
